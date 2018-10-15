@@ -10,7 +10,7 @@
 		7115A6491EE65CEC006D989A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7115A6481EE65CEC006D989A /* main.m */; };
 		7115A64C1EE65CEC006D989A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7115A64B1EE65CEC006D989A /* AppDelegate.m */; };
 		7115A64F1EE65CEC006D989A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7115A64E1EE65CEC006D989A /* ViewController.m */; };
-		7115A6521EE65CEC006D989A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7115A6501EE65CEC006D989A /* Main.storyboard */; settings = {ASSET_TAGS = (action, ); }; };
+		7115A6521EE65CEC006D989A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7115A6501EE65CEC006D989A /* Main.storyboard */; };
 		7115A6541EE65CEC006D989A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7115A6531EE65CEC006D989A /* Assets.xcassets */; };
 		7115A6571EE65CEC006D989A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7115A6551EE65CEC006D989A /* LaunchScreen.storyboard */; };
 		7161379A1EE78C7700BED2A5 /* PeerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 716137991EE78C7700BED2A5 /* PeerListViewController.m */; };
