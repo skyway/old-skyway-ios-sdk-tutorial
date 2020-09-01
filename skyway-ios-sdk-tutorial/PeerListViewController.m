@@ -17,7 +17,6 @@
 
 @implementation PeerListViewController
 
-@synthesize tableView = _tableView;
 @synthesize items = _items;
 
 - (instancetype)initWithStyle:(UITableViewStyle)style {
@@ -33,8 +32,8 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 
-	[_tableView setAllowsSelection:YES];
-	[_tableView setAllowsMultipleSelection:NO];
+	[self.tableView setAllowsSelection:YES];
+	[self.tableView setAllowsMultipleSelection:NO];
 	
 	self.navigationItem.title = @"Select Target's PeerID";
 
@@ -47,8 +46,8 @@
 - (void)viewDidDisappear:(BOOL)animated {
 	[super viewDidDisappear:animated];
 	
-	[_tableView setDelegate:nil];
-	[_tableView setDataSource:nil];
+	[self.tableView setDelegate:nil];
+	[self.tableView setDataSource:nil];
 }
 
 - (void)didReceiveMemoryWarning {
